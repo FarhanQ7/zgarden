@@ -1,0 +1,126 @@
+/*
+
+Farhan Qureshi
+
+April 1, 2019
+
+ */
+
+ .class1 {   /* Rule 1*/
+
+background-color: yellow;
+
+border: 3px solid red;
+
+ }
+
+ .class2 {
+
+background-color: blue;
+
+border: 3px solid red;
+
+ }
+ .class3 {
+
+background-color: green;
+
+border: 3px solid red;
+
+ }
+ .class4 {
+
+background-color: purple;
+
+border: 3px solid red;
+
+ }
+ .class5 {
+
+background-color: orange;
+
+border: 3px solid red;
+
+ }
+
+ #weight {  /* Rule 2*/
+
+background-color: pink;
+
+border: 3px solid red;
+
+ }
+
+ #teacher {
+
+background-color: tan;
+
+border: 3px solid red;
+
+ }
+
+ #teacher2 {
+
+background-color: gold;
+
+border: 3px solid red;
+
+ }
+
+ /* The above code covers rules 3 because the elements chosen were <h1> - <h6>*/
+
+ a:link { /* Rule 4*/
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+
+#blue{ /* Rule 5*/
+
+  color: blue;
+
+}
+
+#red{ /* Rule 6*/
+
+  color: red;
+}
+
+#button:active{ /* Rule 7*/
+
+  color: blue;
+
+}
+#whole{ /* Rule 8*/
+  font-family: "Times New Roman", Times, serif;
+}
+
+#ul{ /* Rule 9*/
+
+ font-size: 40px;
+
+}
+
+#ol{ /* Rule 10*/
+
+   font-size: 40px;
+
+}
+
+#table{ /* Rule 11*/
+
+   font-size: 40px;
+}
